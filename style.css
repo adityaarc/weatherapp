@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito",sans-serif;
+    background-image: url(w2.jpg);
+}
+.headin{
+    margin-top: 5px;
+    background-color:  rgba(130, 18, 204, 0.479);
+    height: 120px;
+}
+.logo{
+    padding-top: 35px;  
+    text-align: center;
+    font-size: 50px;
+    color: rgba(147, 255, 7, 0.993);
+}
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+input[type="text"]{
+    height: 50px;
+    text-align: center;
+    width: 600px;
+    background: #f3e9dc;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    background: #f3a42d;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.display{
+    margin-left: 720px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(39, 38, 38, 0.781);
+    
+    clip-path: circle(68%);
+
+    
+}
+.desc{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-style: bold;
+    color:rgb(231, 179, 5);
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.temp{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(71, 228, 240);
+    font-variant-caps: all-petite-caps;
+}
+.long{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(24, 231, 35);
+    font-variant-caps: all-petite-caps;
+}
+.lat{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(24, 231, 35);
+    font-variant-caps: all-petite-caps;
+}
+.to{
+    padding-top: 26px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(250, 25, 25);
+    font-variant-caps: all-petite-caps;
+
+}
+.humid{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(172, 24, 231);
+    font-variant-caps: all-petite-caps;
+}
