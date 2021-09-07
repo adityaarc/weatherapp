@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito",sans-serif;
+    background-image: url(w2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headin{
+    margin-top: 5px;
+    background-color:  rgba(130, 18, 204, 0.479);
+    height: 120px;
+    width: 98%;
+    margin-left: 1%;
+}
+.logo{
+    padding-top: 35px;  
+    text-align: center;
+    font-size: 50px;
+    color: rgba(147, 255, 7, 0.993);
+}
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+input[type="text"]{
+    height: 50px;
+    text-align: center;
+    width: 600px;
+    background: #f3e9dc;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+input[type="submit"]{
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    background: #f3a42d;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;
+}
+.display{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 48%;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(39, 38, 38, 0.781);  
+    border-radius: 5%;
+    border: 7px solid #f3a42d;
+    box-shadow: #000000 5px 5px 5px;
+}
+.desc{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-style: bold;
+    color:rgb(231, 179, 5);
+    font-variant-caps: all-petite-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.temp{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(71, 228, 240);
+    font-variant-caps: all-petite-caps;
+}
+.long{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(24, 231, 35);
+    font-variant-caps: all-petite-caps;
+}
+.lat{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(24, 231, 35);
+    font-variant-caps: all-petite-caps;
+}
+.to{
+    padding-top: 26px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(250, 25, 25);
+    font-variant-caps: all-petite-caps;
+
+}
+.humid{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(172, 24, 231);
+    font-variant-caps: all-petite-caps;
+}
+
+@media(max-width:1450px){
+
+    body{
+        background-size:auto;
+    
+    }
+
+.display{
+    width: 40%;
+    height: fit-content;
+}
+
+.desc{
+
+    font-size: 50px;
+
+
+}
+.temp{
+
+    font-size: 30px;
+
+    }
+.long{
+
+    font-size: 25px;
+
+    }
+.lat{
+
+    font-size: 25px;
+
+
+    }
+.to{
+
+    font-size: 43px;
+
+    
+}
+.humid{
+
+    font-size: 35px;
+}
+
+
+}
+
+@media(max-width:850px){
+
+    body{
+        background-size:auto;
+    
+    }
+
+    .display{
+        width: 45%;
+        height: fit-content;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .desc{
+
+        font-size: 50px;
+    
+    
+    }
+    .temp{
+    
+        font-size: 30px;
+    
+        }
+    .long{
+    
+        font-size: 25px;
+    
+        }
+    .lat{
+    
+        font-size: 25px;
+    
+    
+        }
+    .to{
+    
+        font-size: 43px;
+    
+        
+    }
+    .humid{
+    
+        font-size: 35px;
+    }
+
+}
+
+
+
+
+@media(max-width:750px){
+
+body{
+    background-size:auto;
+
+}
+    
+    .logo{
+        font-size: 45px;
+    }
+    
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 20px;
+    }
+
+
+    input[type="text"]{
+        width: 70%;
+    }
+
+    input[type="submit"]
+    {
+        margin-top: 20px;
+
+        width: 80px;
+    }
+
+
+    .display{
+        width: 50%;
+        height: fit-content;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+.desc{
+
+    font-size: 46px;
+
+
+}
+.temp{
+
+    font-size: 27px;
+
+    }
+.long{
+
+    font-size: 22px;
+
+    }
+.lat{
+
+    font-size: 22px;
+
+
+    }
+.to{
+
+    font-size: 40px;
+
+    
+}
+.humid{
+
+    font-size: 31px;
+}
+
+}
+
+
+@media(max-width:650px){
+
+    .logo{
+        font-size: 40px;
+    }
+    
+
+    .display{
+        width: 60%;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 20px;
+    }
+
+
+    input[type="text"]{
+        width: 80%;
+    }
+
+    input[type="submit"]
+    {
+        margin-top: 20px;
+        width: 80px;
+    }
+
+    
+    
+.desc{
+
+    font-size: 42px;
+
+
+}
+.temp{
+
+    font-size: 24px;
+
+    }
+.long{
+
+    font-size: 19px;
+
+    }
+.lat{
+
+    font-size: 19px;
+
+
+    }
+.to{
+
+    font-size: 35px;
+
+    
+}
+.humid{
+
+    font-size: 27px;
+}
+
+
+
+    }
+    
+    @media(max-width:450px){
+
+        .logo{
+            font-size: 30px
+        }
+
+        .display{
+            width: 80%;
+            height: fit-content;
+        
+            
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        input {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        margin: 20px;
+        }
+    
+    
+        input[type="text"]{
+            width: 80%;
+        }
+    
+        input[type="submit"]
+        {
+            margin-top: 20px;
+            width: 80px;
+        }
+
+        .desc{
+
+            font-size: 39px;
+        
+        
+        }
+        .temp{
+        
+            font-size: 21px;
+        
+            }
+        .long{
+        
+            font-size: 16px;
+        
+            }
+        .lat{
+        
+            font-size: 16px;
+        
+        
+            }
+        .to{
+        
+            font-size: 31px;
+        
+            
+        }
+        .humid{
+        
+            font-size: 24px;
+        }       
+
+}
+
+
+@media(max-width:170px){
+
+    .logo{
+        font-size: 20px;
+    }
+}
+        
